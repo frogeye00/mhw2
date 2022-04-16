@@ -1,0 +1,81 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid{
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-grid div{
+    box-sizing: border-box;
+    width: 32.5%;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    
+}
+
+.choice-grid div img{
+    width: 100%;
+    height: 200px;
+}
+
+#landscapes {
+    background-image: url(https://media-assets.ad-italia.it/photos/60fe88ac74e20fc41794f497/16:9/w_1280,c_limit/Sudafrica_fynbos_1.jpg);
+    background-repeat: no-repeat;
+}
+
+#activities{
+    background-image: url(http://officinainmovimento.com/wp-content/uploads/cache/images/sport_coronavirus/sport_coronavirus-362067521.png);
+    background-repeat: no-repeat;
+}
+
+#animals {
+    background-image: url(https://www.modenadog.it/wp-content/uploads/2021/03/Golden-Retriever-1024x576.jpeg.webp);
+    background-repeat: no-repeat;
+}
+
+.notSelected {
+    opacity:0.6;
+}
+
+.hidden {
+    display:none;
+}
+
+.result{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.result div{
+    padding: 20px;
+}
+
+.result p{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.result button{
+    height: 50px;
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    article{
+        width: 95%;
+    }
+
+    header div{
+        display:none;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .choice-grid div{
+        width: 49%;
+    }
+}
